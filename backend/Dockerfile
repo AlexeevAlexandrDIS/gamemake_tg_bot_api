@@ -9,6 +9,6 @@ RUN npm install
 COPY . .
 
 # Экспозиция порта для приложения
-EXPOSE 4000
+EXPOSE 8000
 
 CMD [ "node", "index.js" ]

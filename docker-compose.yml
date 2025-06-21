@@ -19,7 +19,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "4000:4000"
+      - "8000:8000"
     container_name: tg-bot-api-backend
     volumes:
       - .:/app
